@@ -93,12 +93,28 @@ while ($i <= 10){
 } */
 
 //Setimo commit 
-/*Arrays*/
+/*Arrays
 $frutas = ['maça' => 'M', 'laranja' => 'L', 'banana' => 'B'];
 
 //print_r($frutas);
 foreach($frutas as $frutas => $categoria){
     echo $frutas . ' da categoria ' . $categoria . '<br>';
+}*/
+
+//Oitavo commit 
+/*Orientação ao objeto (resumo)*/
+
+class Pessoa {
+    public $nome;
+    public $idade;
+
+    public function saudacao(){
+        return "Olá meu nome é " . $this->nome;
+    }
 }
+
+$pessoa = new Pessoa();
+$pessoa-> nome = "Pablo";
+echo $pessoa->saudacao();
 
 ?>
