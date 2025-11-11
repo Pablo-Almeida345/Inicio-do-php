@@ -49,10 +49,32 @@ var_dump($c || $d);
 var_dump(!$d);*/
 
 //Quarto commit 
-/*Funções*/
+/*Funções
 function saudacao($nome, $idade){
     return "Olá, $nome, você tem $idade anos";
 }
 
-echo saudacao("Canal TI", 20);
+echo saudacao("Canal TI", 20);*/
+
+//Quinto commit 
+/*Condições*/
+
+// if, else, elseif
+
+$nome = 'Canal TI';
+
+if ($nome == 'Canal TI'){
+    echo 'O seu nome é Canal TI';
+} else if($nome == 'canal TI2'){
+    echo 'O seu nome é Canal TI 2';
+}else{
+    echo 'O seu nome não é Canal TI é nem Canal TI 2';
+}
+
+//Case e como se fosse o caso e dafalt o else e usar o break
+switch ($nome){
+    case 'Canal TI' : echo 'O seu nome é Canal TI'; break;
+    case 'canal TI2' : echo 'O seu nome é Canal TI 2'; break;
+    default echo 'O seu nome não é Canal TI é nem Canal TI 2'; break;
+}
 ?>
