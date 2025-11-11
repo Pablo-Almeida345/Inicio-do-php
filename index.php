@@ -80,15 +80,25 @@ switch ($nome){
 
 
 //Sexto commit 
-/*Loops*/
+/*Loops
 // for, while
-/*for ($i = 0; $i <= 10; $i++){
+for ($i = 0; $i <= 10; $i++){
     echo "$i <br>";
-}*/
+
 
 $i = 0;
 while ($i <= 10){
     echo "$i <br>";
     $i++;
-} 
+} */
+
+//Setimo commit 
+/*Arrays*/
+$frutas = ['maça' => 'M', 'laranja' => 'L', 'banana' => 'B'];
+
+//print_r($frutas);
+foreach($frutas as $frutas => $categoria){
+    echo $frutas . ' da categoria ' . $categoria . '<br>';
+}
+
 ?>
