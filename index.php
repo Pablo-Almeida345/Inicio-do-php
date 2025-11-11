@@ -57,7 +57,7 @@ function saudacao($nome, $idade){
 echo saudacao("Canal TI", 20);*/
 
 //Quinto commit 
-/*Condições*/
+/*Condições
 
 // if, else, elseif
 
@@ -75,6 +75,20 @@ if ($nome == 'Canal TI'){
 switch ($nome){
     case 'Canal TI' : echo 'O seu nome é Canal TI'; break;
     case 'canal TI2' : echo 'O seu nome é Canal TI 2'; break;
-    default echo 'O seu nome não é Canal TI é nem Canal TI 2'; break;
-}
+    default: echo 'O seu nome não é Canal TI é nem Canal TI 2'; break;
+}*/
+
+
+//Sexto commit 
+/*Loops*/
+// for, while
+/*for ($i = 0; $i <= 10; $i++){
+    echo "$i <br>";
+}*/
+
+$i = 0;
+while ($i <= 10){
+    echo "$i <br>";
+    $i++;
+} 
 ?>
